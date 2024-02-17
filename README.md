@@ -12,8 +12,6 @@ This repository contains a collection of components designed for reinforcement l
   - **Month**
   - **Hour**
 
-This structured input supports the dynamic interaction between RL agents and the custom energy management environment, enabling the development of optimized energy usage and cost strategies.
-
 ## RL Monitoring Utilities
 
 - `plotting.py`: A utility script for visualizing training metrics, including rewards, losses, and other relevant performance indicators over time.
