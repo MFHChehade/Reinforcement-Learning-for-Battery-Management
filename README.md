@@ -22,6 +22,10 @@ This repository contains a collection of components designed for reinforcement l
 - `energy_management_env.py`: Implements the custom energy management environment. It simulates the dynamics of energy systems, handling state transitions, reward calculations, and any interactions an agent can have within this domain.
 - `env_registration.py`: Facilitates the registration of the custom environment with the RL framework being used, ensuring compatibility and ease of use within standard training routines.
 
+## Problem Formulations
+
+- `problem_formulations/RL Formulation - Battery Problem.pdf`: This document provides a detailed mathematical formulation of the battery optimization problem addressed by the RL agents in this project. It includes the definition of the state space, action space, reward function, transition dynamics, and constraints, offering a theoretical foundation for understanding and improving the RL algorithms used for energy management.
+
 ## Getting Started
 
 To get started with training an agent in the energy management environment, ensure you have the required dependencies installed. Then, you can run the `agents_main.py` script to begin the training process. Make sure to adjust the data input paths and any hyperparameters according to your experimental setup.
