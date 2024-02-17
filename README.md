@@ -4,7 +4,15 @@ This repository contains a collection of components designed for reinforcement l
 
 ## Data Inputs
 
-- `Data_input.csv` & `Data_input_v2.csv`: These files include the necessary input data for the RL experiments. The data could range from environmental parameters, agent initial states, or any other domain-specific information required for simulation or real-world scenarios.
+- `Data_input.csv` & `Data_input_v2.csv`: Core datasets designed for reinforcement learning experiments within the energy management domain. These files contain time-series data essential for simulating and navigating energy system complexities. Each dataset includes the following columns:
+
+  - **Demand**
+  - **Price**
+  - **Day**
+  - **Month**
+  - **Hour**
+
+This structured input supports the dynamic interaction between RL agents and the custom energy management environment, enabling the development of optimized energy usage and cost strategies.
 
 ## RL Monitoring Utilities
 
